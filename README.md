@@ -1,8 +1,7 @@
 # markdown 语法学习[^1]
 [^1]:这是一个脚注,这个语法时候可以生效?!鼠标经过的时候左下角的链接信息会出现提示?
 
-[](@jump)
-
+<a id='jump'>11</a>
 
 |描述|效果|语法|
 |:--|:--:|--:|
@@ -38,9 +37,7 @@ $ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $
 ---
 \* \* \*
 * * *
-# 锚点 # 点要怎么设置? ##? `跳转点要怎么设置?`
-[锚点测试=>跳转到jump](#jump)
-
+---
 # 列表系列
 ## 有序列表
 1. A
@@ -75,8 +72,8 @@ $ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $
 这是一个超链接 [W3C教程]( https://www.w3cschool.cn/lme/6jdv1srr.html )
     `<a id='jump'>11</a>`用于锚的跳转
     `<a id="user-content-jump">11</a>` 页面中会生成
-
-
+    `user-content-id` 作为跳转的锚点 ``
+    [跳转测试](#user-content-jump)
 # 表格的扩展 # 为什么会无效呢? # 增加标题
 
 |Tables |Are|Cool|
