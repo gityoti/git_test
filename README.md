@@ -78,16 +78,10 @@ $ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $
 
 # 表格的扩展 # 为什么会无效呢? # 增加标题
 
-|表格标题|
-| 表头1  | 表头2  | 表头3  |
-|:-------|:------:|-------:|
-|单元格1 |单元格2 | 单元格3|
-|单元格4 |单元格5 | 单元格6|
-######1
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+    | Tables        | Are           | Cool  |
+    | ------------- |:-------------:| -----:|
+    | col 3 is      | right-aligned | $1600 |
+    | col 2 is      | centered      |   $12 |
+    | zebra stripes | are neat      |    $1 |
 
-# 任务列表
+
