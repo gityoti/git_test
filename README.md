@@ -52,6 +52,7 @@ $ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $
 * C
 
 # 代码高亮
+*       到底支持多少种代码高亮呢? [url](https://blog.csdn.net/u012102104/article/details/78950290)
 ``` javascript
     var x= 1;
     function a(a,b,c){
