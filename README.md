@@ -52,7 +52,7 @@ $ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $
 * C
 
 # 代码高亮
-```
+``` javascript
     var x= 1;
     function a(a,b,c){
         return a+b+c;
