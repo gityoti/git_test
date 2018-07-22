@@ -50,3 +50,12 @@ $ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $
 * A
 * B
 * C
+
+# 代码高亮
+```
+    var x= 1;
+    function a(a,b,c){
+        return a+b+c;
+    }
+    a(1,2,3)
+```
