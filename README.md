@@ -1,6 +1,7 @@
 # markdown 语法学习[^1]
 [^1]:这是一个脚注,这个语法时候可以生效?!鼠标经过的时候左下角的链接信息会出现提示?
-<a id = "jump" name="jump">锚点!跳转到顶部</a>
+
+[这是一个锚的跳转点](@jump)
 
 |描述|效果|语法|
 |:--|:--:|--:|
@@ -52,7 +53,9 @@ $ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $
 * C
 
 # 代码高亮
+
 *       到底支持多少种代码高亮呢?
+[高亮参数列表](https://blog.csdn.net/u012102104/article/details/78950290 "abc")
 ``` javascript
     var x= 1;
     function a(a,b,c){
@@ -61,7 +64,12 @@ $ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $
     a(1,2,3)
 ```
 
-# 链接类型
+# 链接类型 # 必须独占一行才能生效? # 有没有什么办法让换行也能够生效?
 ![图片的描述信息](https://upload-images.jianshu.io/upload_images/6860761-fd2f51090a890873.jpg "鼠标移过显示标题")
-[url](https://blog.csdn.net/u012102104/article/details/78950290 "abc")
-[git](http://github.com)
+    图片链接语法`![描述](图片url "title")`
+
+    超链接语法`[显示的文本](链接url "title")` , 同时支持做锚点跳转
+[W3C教程]( https://www.w3cschool.cn/lme/6jdv1srr.html )
+
+`[](@PageFooter)` 锚
+`[跳转到页脚位置](#PageFooter)` 点击跳转到指定锚点
