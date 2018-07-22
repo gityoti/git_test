@@ -52,7 +52,7 @@ $ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $
 * C
 
 # 代码高亮
-*       到底支持多少种代码高亮呢? [url](https://blog.csdn.net/u012102104/article/details/78950290 "abc")
+*       到底支持多少种代码高亮呢?
 ``` javascript
     var x= 1;
     function a(a,b,c){
@@ -60,3 +60,8 @@ $ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $
     }
     a(1,2,3)
 ```
+
+# 链接类型
+![图片的描述信息](https://upload-images.jianshu.io/upload_images/6860761-fd2f51090a890873.jpg "鼠标移过显示标题")
+[url](https://blog.csdn.net/u012102104/article/details/78950290 "abc")
+[git](http://github.com)
