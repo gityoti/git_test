@@ -78,7 +78,7 @@ $ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $
 
 # 表格的扩展 # 为什么会无效呢? # 增加标题
 
-|Tables|Are|Cool|
+| Tables |Are|Cool|
 |-------------|:-------------:|-----:|
 |col 3 is|right-aligned|$1600 |
 |col 2 is|centered|$12|
