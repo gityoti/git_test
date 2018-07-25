@@ -1,3 +1,0 @@
-echo 'hell world';
-
-:：
